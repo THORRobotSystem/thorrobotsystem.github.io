@@ -1,0 +1,278 @@
+/*
+Swerve senior design team common style sheet
+Author: Frederick Wachter - wachterfreddy@gmail.com
+Created: 2016-07-02
+*/
+
+/* -----------
+ *  Scrollbar
+ * -----------
+ */
+::-webkit-scrollbar {
+	width:10px;
+	background-color:whitesmoke;
+}
+::-webkit-scrollbar-thumb {
+    background:black; 
+}
+
+/* -------
+ *  Fonts
+ * ------- 
+ */
+@font-face {
+	font-family:TypoSquare_Light;
+	src: url(fonts/Typo_Square_Light.otf) format("opentype");
+}
+@font-face {
+	font-family:HelveticaNeue-Thin;
+	src: url(fonts/HelveticaNeue-Thin.otf) format("opentype");
+}
+@font-face {
+	font-family:HelveticaNeue-Light;
+	src: url(fonts/HelveticaNeue-Light.otf) format("opentype");
+}
+@font-face {
+	font-family:HelveticaNeue-CondensedBold;
+	src: url(fonts/HelveticaNeue-CondensedBold.otf) format("opentype");
+}
+@font-face {
+	font-family:FontAwesome;
+	src: url(fonts/fontawesome-webfont.eot);
+	src: url(fonts/fontawesome-webfont.eot?#iefix) format('embedded-opentype'), 
+		 url(fonts/fontawesome-webfont.woff) format('woff');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:FontAwesomeBrands;
+	src: url(fonts/fontawesome-webfont-brands.eot);
+	src: url(fonts/fontawesome-webfont-brands.eot?#iefix) format('embedded-opentype'), 
+		 url(fonts/fontawesome-webfont-brands.woff) format('woff');
+	font-weight:normal;
+	font-style:normal;
+}
+
+.icon-desktop:before {
+	font-family:FontAwesome;
+	content: "\f108";
+	margin-top:2px;
+	font-size:38px;
+	color:black;
+}
+.icon-github:before {
+	font-family:FontAwesome;
+	content:"\f09b";
+	font-size:39px;
+	height:50px;
+	color:black;
+}
+.icon-facebook:before {
+	font-family:FontAwesome;
+	content: "\f230";
+	font-size:38px;
+	color:black;
+}
+.icon-linkedin:before {
+	font-family:FontAwesome;
+	content: "\f08c";
+	font-size:38px;
+	color:black;
+}
+.icon-twitter:before {
+	font-family:FontAwesome;
+	content: "\f099";
+	font-size:38px;
+	color:rgb(225,225,224);
+}
+.icon-document:before {
+	position:relative;
+	margin:30px 10px 0px 10px;
+	font-family:FontAwesome;
+	content: "\f15c";
+	font-style:normal;
+	font-size:45px;
+	color:rgb(225,225,224);
+}
+.icon-up-arrow:before {
+	font-family:FontAwesome;
+	content: "\f062";
+	font-size:38px;
+	color:black;
+}
+
+
+.icon-instagram:before {
+	position:relative;
+	top:3px;
+	margin:30px 10px 0px 10px;
+	font-family:FontAwesome;
+	content: "\f16d";
+	font-size:52px;
+	color:rgb(225,225,224);
+}
+.icon-youtube:before {
+	position:relative;
+	margin:30px 10px 0px 10px;
+	font-family:FontAwesome;
+	content: "\f167";
+	font-style:normal;
+	font-size:45px;
+	color:rgb(225,225,224);
+}
+.icon-mail:before {
+	position:relative;
+	margin:30px 10px 0px 10px;
+	font-family:FontAwesome;
+	content: "\f003";
+	font-style:normal;
+	font-size:52px;
+	color:rgb(225,225,224);
+}
+.icon-github-black:before {
+	position:relative;
+	margin:30px 10px 0px 10px;
+	font-family:FontAwesome;
+	content:"\f09b";
+	font-style:normal;
+	font-size:52px;
+	color:rgb(225,225,224);
+}
+.icon-kickstarter:before {
+	position:relative;
+	top:3px;
+	margin:30px 10px 0px 10px;
+	font-family:FontAwesomeBrands;
+	content:"\f3bc";
+	font-style:normal;
+	font-size:52px;
+	color:rgb(225,225,224);
+}
+
+
+
+/* ---------------
+ *  Standard Tags
+ * ---------------
+ */
+body {
+	margin:0px;
+	background-color:black;
+	font-family:TypoSquare_Light;
+	font-weight:bold;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+div {
+	margin:0px;
+	padding:0px;
+}
+p {
+	margin:0px 0px 5px 0px;
+	font-size:18px;
+	color:inherit;
+}
+a {
+	text-decoration:none;
+	color:inherit;
+}
+br {
+	margin:15px;
+	line-height: 150%;
+}
+
+/* ------------------------
+ *  Common IDs and Classes
+ * ------------------------
+ */
+#updated {
+	height:18px;
+	width:100%;
+	font-size:12px;
+	color:black;
+	background-color:whitesmoke;
+	text-align:center;
+}
+#footer {
+	width:100%;
+	bottom:0px;
+	position:fixed;
+}
+#up_arrow {
+	margin:0px 20px 20px 0px;
+	float:right;
+	color: black;
+	text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+}
+
+.blank {
+	height:200px;
+	width:100%;
+}
+.title {
+	font-size:50px;
+}
+.text {
+	text-align:justify;
+	text-justify:inter-word;
+}
+.button {
+	padding:5px 10px 5px 10px;
+	text-transform:uppercase;
+	border-radius:2px;
+	display:inline-block;
+	text-align:center;
+	cursor:pointer;
+	font-size:20px;
+	box-shadow:inset 0 0 0 0 gray;
+	-webkit-transition:all ease-out 0.5s;
+	-moz-transition:all ease-out 0.5s;
+	transition:all ease-out 0.5s;
+}
+.button:hover {
+	box-shadow:inset 0 100px 0 0 gray;
+}
+.button_white {
+	color:black;
+	background:whitesmoke;
+	border:1px solid black;
+}
+.button_black {
+  color:white;
+  background:black;
+  border:1px solid whitesmoke;
+}
+.spacer {
+	height:10px;
+	width:100%;
+}
+.section_container {
+	margin:0px auto;
+	padding:0px 60px;
+	max-width:1200px;
+}
+.blur_large {
+	-webkit-box-shadow:0px -10px 50px 50px #0A0A0A;
+	-moz-box-shadow:0px -10px 50px 50px #0A0A0A;
+	-o-box-shadow:0px -10px 50px 50px #0A0A0A;
+	box-shadow:0px -10px 50px 50px #0A0A0A;
+}
+.blur_small {
+	-webkit-box-shadow:0px 0px 40px 40px #0A0A0A;
+	-moz-box-shadow:0px 0px 40px 40px #0A0A0A;
+	-o-box-shadow:0px 0px 40px 40px #0A0A0A;
+	box-shadow:0px 0px 40px 40px #0A0A0A;
+}
+.enhance_text {
+	text-shadow: #000 2px 2px 10px;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+.bold {
+	font-weight:bold;
+}
+.hover:hover {
+	opacity:0.75;
+}
+
+

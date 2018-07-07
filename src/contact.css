@@ -1,0 +1,184 @@
+/*
+Swerve senior design team member contact style sheet
+Author: Frederick Wachter - wachterfreddy@gmail.com
+Created: 2016-07-01
+*/
+
+.icon-location-contact:before {
+ 	margin:3px 0px 0px 10px;
+ 	font-family:FontAwesome;
+ 	content: "\f041";
+ 	font-size:40px;
+ 	color:white;
+ 	float:left;
+ }
+ .icon-mail-contact:before {
+ 	margin:5px 0px 0px 0px;
+ 	font-family:FontAwesome;
+ 	content: "\f003";
+ 	font-size:40px;
+ 	color:white;
+ 	float:left;
+ }
+
+.icon-contact {
+	margin:0px 10px;
+}
+.icon-contact:hover {
+	opacity:0.5;
+}
+
+/* -----------------
+ *  Contact Section
+ * ----------------- 
+ */
+#contact {
+	width:100%;
+	background:url(img/drexel_main_building.png) no-repeat center center;
+	background-size:cover;
+	text-align:center;
+	overflow:hidden;
+}
+#contact_container_title {
+	padding-top:45px;
+	height:80px;
+	width:100%;
+	color:white;
+}
+#contact_container_info {
+	width:80%;
+	display:inline-block;
+
+}
+#contact_fade {
+	height:40px;
+	width:100%;
+	background: linear-gradient(to top, rgba(245,245,245,1), rgba(245,245,245,0.80), rgba(245,245,245,0));
+}
+#contact_section_info {
+	height:100%;
+	width:50%;
+	float:left;
+	color:whitesmoke;
+}
+#contact_section_form {
+	height:100%;
+	width:50%;
+	float:left;
+}
+#contact_section_info_box {
+	margin-top:45px;
+	width:70%;
+	min-width:460px;
+	background-color:black;
+	display:inline-block;
+	text-align:left;
+}
+#contact_text_container {
+	margin:10px 0px 0px 10px;
+}
+.contact_icon_container {
+	margin:22px 50px 0px 20px;
+}
+.contact_text_container {
+	margin-left:75px;
+	height:40px;
+}
+
+#target {
+	margin:45px 5px;
+	height:50px;
+	width:50px;
+	background-color:blue;
+	display:inline-block;
+}
+
+@media screen and (max-width: 1425px) {
+	#contact_section_form {
+		padding-top:30px;
+	}
+	#contact_section_info {
+		margin-top:0px;
+		margin-left:25px;
+		float:none;
+	}
+	#contact_container_info {
+		width:520px;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	#contact_container_info {
+		width:70%;
+		display:inline-block;
+
+	}
+}
+
+@media screen and (min-width: 1800px) {
+	#contact_container_info {
+		width:60%;
+		display:inline-block;
+
+	}
+}
+
+/* --------------
+ *  Form Section
+ * -------------- 
+ */
+form {
+  margin:10px auto 10px auto;
+  height:100%;
+  width:520px;
+  text-align:center;
+}
+input, textarea {
+	height:30px;
+	width:472px;
+	margin:5px 1px 5px 0px;
+	padding:4px 0px 4px 48px;
+	border:1px solid black;
+	border-radius:2px;
+	color:rgb(7,41,77);
+	font-size:18px;
+	background-color:whitesmoke;
+}
+textarea {
+	padding:8px 0px 0px 48px;
+	height:90px;
+	resize:none;
+}
+input:focus, textarea:focus {
+	outline:blue solid medium;
+	border-radius:2px;
+}
+
+#user_name_icon {
+	background:url(img/icons/Person.png) no-repeat center center;
+}
+#user_email_icon {
+	background:url(img/icons/Email.png) no-repeat center center;
+}
+#user_message_icon {
+	background:url(img/icons/Message.png) no-repeat center;
+}
+#user_name_icon, #user_email_icon, #user_message_icon {
+	margin:12px 0px 0px 11px;
+	height:24px;
+	width:28px;
+	position:absolute;
+	background-size:contain;
+}
+
+#form_submit {
+	padding:0px;
+	height:40px;
+	width:520px;
+	background:whitesmoke;
+}
+#form_submit:hover {
+	color:whitesmoke;
+}
+
+

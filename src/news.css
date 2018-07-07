@@ -1,0 +1,74 @@
+
+.news_item {
+	position:relative;
+	margin:5px 20px;
+	display:inline-block;
+	position:relative;
+	height:350px;
+	width:575px;
+	cursor:pointer;
+	/*background:rgba(25,25,25,0.95);*/
+}
+
+
+.news_background {
+	position:relative;
+	height:350px;
+	width:575px;
+	-webkit-transition: brightness 0.5s;
+	-moz-transition: brightness 0.5s;
+	-o-transition: brightness 0.5s;
+	transition: brightness 0.5s;
+}
+
+.news_date {
+	top:5%;
+	left:50%;
+	transform:translateX(-50%);
+	padding:0px 10px;
+	position:absolute;
+	opacity:0;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+.news_date p {
+	font-size:14px;
+	color:whitesmoke;
+}
+
+.news_text {
+	padding:0px 10px;
+	position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+	opacity:0;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+.news_text p {
+	color:whitesmoke;
+}
+
+.news_item:hover .news_background {
+	-webkit-filter: brightness(0%);
+	-moz-filter: brightness(0%);
+	-o-filter: brightness(0%);
+	filter: brightness(0%);
+}
+.news_item:hover .news_text {
+	color:whitesmoke;
+	opacity:1;
+}
+.news_item:hover .news_date {
+	color:whitesmoke;
+	opacity:1;
+}
+
+#coe_comp {
+	background:url(img/media/Swerve_SeniorDesignCompWin1.jpg) no-repeat center center;
+	background-size:cover;
+}

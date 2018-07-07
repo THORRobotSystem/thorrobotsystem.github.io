@@ -1,2 +1,6 @@
-# thorrobotsystem.github.io
-THOR Robot Website
+# THOR Robot Website
+
+[Link to website](THORRobotSystem.github.io)
+
+
+

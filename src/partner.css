@@ -1,0 +1,62 @@
+/*
+Swerve senior design team about us style sheet
+Author: Frederick Wachter - wachterfreddy@gmail.com
+Created: 2016-07-15
+*/
+
+#partner {
+	padding:30px 0px;
+	width:100%;
+	text-align:center;
+	color:white;
+}
+#partner_button {
+	font-size:25px;
+	padding:5px 15px;
+}
+
+#logo_section {
+	margin:20px;
+	width:100%;
+	text-align:center;
+}
+
+.sponsor_logo {
+	height:100px;
+	width:100px;
+	display:inline-block;
+}
+#sick {
+	width:250px;
+	background:url(img/sponsors/SICK_logo.png) no-repeat center center;
+}
+#nextfab {
+	width:250px;
+	background:url(img/sponsors/NEXTFab_logo.png) no-repeat center center;
+}
+#asme_philly {
+	width:250px;
+	background:url(img/sponsors/ASMEPhilly_logo.png) no-repeat center center;
+}
+#tamg {
+	width:250px;
+	background:url(img/sponsors/TAMG_logo.png) no-repeat center center;
+	-webkit-filter:invert(50%) brightness(8);
+	-moz-filter:invert(50%) brightness(8);
+	-o-filter:invert(50%) brightness(8);
+	filter:invert(50%) brightness(8);
+
+}
+#ace {
+	width:250px;
+	background:url(img/sponsors/ACE_logo.png) no-repeat center center;
+}
+#mem {
+	width:250px;
+	background:url(img/sponsors/DrexelMEM_logo.png) no-repeat center center;
+}
+#sick, #nextfab, #asme_philly, #tamg, #ace, #mem {
+	background-size:contain;
+}
+
+

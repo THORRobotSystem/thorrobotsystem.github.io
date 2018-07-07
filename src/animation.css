@@ -1,0 +1,116 @@
+/*
+Swerve senior design team animation style sheet
+Author: Frederick Wachter - wachterfreddy@gmail.com
+Created: 2016-06-25
+*/
+
+/* ---------
+ *  Classes
+ * --------- 
+ */
+.center {
+	position:fixed;
+	left:50%;
+	top:50%;
+}
+
+/* -------------------
+ *  Animation Section
+ * -------------------
+ */
+#animation {
+	position:fixed;
+	width:100%;
+	background:black;
+	z-index:2;
+}
+#animation_background {
+	top:0px;
+	height:100vh;
+	width:100%;
+}
+.animation {
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-50px;
+}
+
+/* ----------------
+ *  Logo Animation
+ * ---------------- 
+ */
+.logo {
+	height:100px;
+	display:inline-block;;
+}
+
+#logo {
+	margin-left:-150px;
+	margin-top:-50px;
+	height:100px;
+	width:300px;
+}
+
+.logo_bracket {
+	width:20px;
+}
+
+.logo_hammer {
+	width:65px;
+}
+
+.logo_words {
+	margin-left:-5px;
+	width:150px;
+}
+
+#logo_bracket_left {
+	background:url("img/logo/logo_bracket_left_white.png") no-repeat center center;
+    background-size:contain;
+}
+
+#logo_hammer {
+	background:url("img/logo/thor_hammer_white.png") no-repeat center center;
+    background-size:contain;
+}
+
+#logo_bracket_right {
+	background:url("img/logo/logo_bracket_right_white.png") no-repeat center center;
+    background-size:contain;
+}
+
+#logo_words {
+	background:url("img/logo/thor_words_white.png") no-repeat center center;
+    background-size:contain;
+}
+#team_title {
+	display:inline-block;
+	font-weight:bold;
+}
+
+/* -------
+ *  Title
+ * ------- 
+ */
+
+#title {
+	position:relative;
+	width:100%;
+	opacity:0;
+}
+#title_background {
+	height:110%;
+	text-align:center;
+}
+#title_video {
+	position: absolute;
+	left: 0px;
+	width: 100%;
+}
+#link_bar_spacer {
+	height:70px;
+	width:100%;
+}
+
+

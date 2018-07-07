@@ -1,0 +1,102 @@
+/*
+Swerve senior design team about us style sheet
+Author: Frederick Wachter - wachterfreddy@gmail.com
+Created: 2016-07-15
+*/
+
+a div p {
+	color:white;
+}
+
+.about_section_white, .about_section_black {
+	padding:30px 0px;
+	width:100%;
+	text-align:center;
+}
+.about_section_white {
+	background-color:whitesmoke;
+	color:black;
+}
+.about_section_black {
+	background-color:black;
+	color:white;
+}
+
+#vision {
+	width:100%;
+}
+#features {
+	width:100%;
+}
+.feature {
+	margin:2.5px;
+	height:160px;
+	width:190px;
+	display:inline-block;
+	vertical-align:top;
+}
+.standard {
+	margin:2.5px;
+	height:140px;
+	width:190px;
+	display:inline-block;
+	vertical-align:top;
+}
+.standard:hover {
+    background-color:whitesmoke;
+    cursor:pointer;
+}
+.standard:hover div, .standard:hover p {
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.block_icon_container {
+	margin:5px auto;
+	height:80px;
+	width:80px;
+	border-radius:45px;
+}
+.about_section_white div div div .block_icon_container {
+	border:2px solid black;
+}
+.about_section_black div div div .block_icon_container {
+	border:2px solid whitesmoke;
+}
+.block_icon {
+	margin:15px 0px 0px 15px;
+	height:50px;
+	width:50px;
+}
+
+#ros_enabled {
+	background:url(img/icons/ROS.png);
+}
+#omni-directional {
+	background:url(img/icons/omni-directional.png);
+}
+#open_source {
+	background:url(img/icons/open_source.png);
+}
+#autonomous {
+	background:url(img/icons/autonomous.png);
+}
+#human_operated {
+	background:url(img/icons/human_operated.png);
+}
+#sensor {
+	background:url(img/icons/sensor.png);
+}
+#ros_enabled, #omni-directional, #open_source, #autonomous, 
+#human_operated, #sensor {
+	background-size:cover;
+	filter:brightness(0);
+}
+#ros_enabled {
+	margin:20px 0px 0px 20px;
+	height:40px;
+	width:40px;
+}
+
+

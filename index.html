@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+
+<!-- 
+Swerve senior design team website HTML page
+Author: Frederick Wachter - wachterfreddy@gmail.com
+Created: 2016-06-24
+-->
+
+<head>
+	<title>THOR</title>
+	<link rel="shorcut icon" href="src/img/logo/thor_icon_white.png"/>
+	<link rel="stylesheet" type="text/css" href="src/about_us.css"/>
+	<link rel="stylesheet" type="text/css" href="src/animation.css"/>
+	<link rel="stylesheet" type="text/css" href="src/common.css"/>
+	<link rel="stylesheet" type="text/css" href="src/contact.css"/>
+	<link rel="stylesheet" type="text/css" href="src/partner.css"/>
+	<link rel="stylesheet" type="text/css" href="src/profiles.css"/>
+	<link rel="stylesheet" type="text/css" href="src/news.css"/>
+	
+	<meta name="description" content="Official website for the THOR Robot Platform"/>
+	<meta name="keywords" content="THOR, THOR Robot, Robotics Research Platform, Robotic Mobile Platform"/>
+	<meta name="author" content="Frederick Wachter"/>
+	<!-- <meta name="google-site-verification" content="5dvmEHcWZMlAR51o2lozt_1xsxbnWJ97tLFYi-biFGY" /> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+	<script type="text/javascript" src="src/smoothscroll.min.js"></script>
+</head>
+
+<body>
+	
+	<!-- <header></header> -->
+	
+	<main>
+		<section id="animation">
+			<div id="logo" class="center">
+				<div id="logo_bracket_left" class="logo logo_bracket"></div>
+				<div id="logo_hammer" class="logo logo_hammer"></div>
+				<div id="logo_words" class="logo logo_words"></div>
+				<div id="logo_bracket_right" class="logo logo_bracket"></div>
+			</div>
+		</section>
+		<div id="animation_background"></div>
+		<section id="title">
+			<div id="title_background">
+				<div id="link_bar_spacer"></div>
+				<video playsinline autoplay muted loop id="title_video">
+			  	<source src="src/video/intro.mp4" type="video/mp4">
+			  	Your browser does not support HTML5 video.
+		    </video>
+			</div>
+		</section>
+		<section class="about_section_black">
+			<div class="section_container">
+				<div id="vision">
+					<p class="title">
+						THOR
+					</p>
+					<hr/>
+					<p class="text">
+						THOR (Three Omni-Wheeled Robot) is a multi-purpose research platform and learning tool for robotics<span style="font-family:HelveticaNeue-Light;">.</span> This mobile robot platform has a suite of integrated sensors in order to be able to track its position<span style="font-family:HelveticaNeue-Light;">,</span> understand the surrounding environment<span style="font-family:HelveticaNeue-Light;">,</span> and operate either through manual control or autonomously<span style="font-family:HelveticaNeue-Light;">.</span> This platform utlizies many common packages used within the ROS (Robot Operating Systems) framework which makes the platform easy to use and allows for easy integration of additional packages and functionalities<span style="font-family:HelveticaNeue-Light;">.</span>
+					</p>
+
+					<div class="spacer"></div>
+					<a href="https://goo.gl/XttzoW" target="_blank" class="hover">
+						<span class="icon-kickstarter"></span>
+					</a>
+					<a href="https://www.instagram.com/thorrobot/" target="_blank" class="hover">
+						<span class="icon-instagram"></span>
+					</a>
+					<a href="https://www.youtube.com/channel/UCDTdHIAayuQ5LoevBYIALmQ" target="_blank" class="hover">
+						<span class="icon-youtube"></span>
+					</a>
+					<a href="https://github.com/THORRobotSystem" target="_blank" class="hover">
+						<span class="icon-github-black"></span>
+					</a>
+					<a href="mailto:THORRobotSystem@gmail.com" class="hover">
+						<span class="icon-mail"></span>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="about_section_white">
+			<div class="section_container">
+				<div id="features">
+					<p class="title">Features</p>
+					<hr/>
+					<div class="feature">
+						<div class="block_icon_container">
+							<div id="ros_enabled" class="block_icon"></div>
+						</div>
+						<p class="block_text">THOR is a ROS-enabled robot</p>
+					</div>
+					<div class="feature">
+						<div class="block_icon_container">
+							<div id="omni-directional" class="block_icon"></div>
+						</div>
+						<p class="block_text">THOR has omni-directional drive</p>
+					</div>
+					<div class="feature">
+						<div class="block_icon_container">
+							<div id="open_source" class="block_icon"></div>
+						</div>
+						<p class="block_text">THOR is open source</p>
+					</div>
+					<div class="feature">
+						<div class="block_icon_container">
+							<div id="sensor" class="block_icon" style="margin-top:18px;"></div>
+						</div>
+						<p class="block_text">THOR has integrated sensing</p>
+					</div>
+					<div class="feature">
+						<div class="block_icon_container">
+							<div id="autonomous" class="block_icon"></div>
+						</div>
+						<p class="block_text">THOR can be autonomous</p>
+					</div>
+					<div class="feature">
+						<div class="block_icon_container">
+							<div id="human_operated" class="block_icon"></div>
+						</div>
+						<p class="block_text">THOR can be human operated</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="profiles">
+			<p id="profiles_title" class="title">Meet the Team</p>
+			<div id="freddy" class="profile">
+				<div class="front"></div> 
+				<div class="back">
+					<div class="profile_container_title">
+						<p class="profile_name">Frederick Wachter</p>
+						<p class="profile_position">Co-Founder</p>
+						<p class="profile_position">Software Developer</p>
+					</div>
+					<div class="profile_container_link">
+						<a href="https://FWachter.github.io" target="_blank">
+							<span class="icon-desktop icon"></span>
+						</a>
+						<a href="https://github.com/FWachter" target="_blank">
+							<span class="icon-github icon"></span>
+						</a>
+						<a href="https://www.linkedin.com/in/frederickwachter/" target="_blank">
+							<span class="icon-linkedin icon"></span>
+						</a>
+						<a href="https://www.facebook.com/freddywachter" target="_blank">
+							<span class="icon-facebook icon"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div id="matt" class="profile">
+				<div class="front"></div> 
+				<div class="back">
+					<div class="profile_container_title">
+						<p class="profile_name">Matthew Wiese</p>
+						<p class="profile_position">Co-Founder</p>
+						<p class="profile_position">Mechanical Engineer</p>
+					</div>
+					<div class="profile_container_link">
+						<a href="https://github.com/MattCarl" target="_blank">
+							<span class="icon-github icon"></span>
+						</a>
+						<a href="https://www.linkedin.com/in/mcwiese/" target="_blank">
+							<span class="icon-linkedin icon"></span>
+						</a>
+						<a href="https://www.facebook.com/MattCWiese" target="_blank">
+							<span class="icon-facebook icon"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>	
+		</br>		
+		<section id="contact">
+			<div id="contact_container_title">
+				<p class="title">Contact Us</p>
+			</div>
+			<div id="contact_container_info">
+				<div id="contact_section_info">
+					<div id="contact_section_info_box" class="blur_large">
+						<div id="contact_text_container">
+							<p>Please contact us using the form <span id="contact_form_location">on the right</span> and we will get back to you as soon as possible<span style="font-family:HelveticaNeue-Light">.</span></p>
+						</div>
+						<!-- <div class="contact_icon_container">
+							<span class="icon-location-contact"></span>
+						</div>
+						<div class="contact_text_container" style="margin-top:25px;">
+							<p>3141 Chestnut Street</p>
+							<p>Philadelphia, PA 19104 USA</p>
+						</div> -->
+						<div class="contact_icon_container">
+							<span class="icon-mail-contact"></span>
+						</div>
+						<div class="contact_text_container" style="margin-top:35px;">
+							<p>THORRobotSystem (at) gmail<span style="font-family:HelveticaNeue-Light">.</span>com</p>
+						</div>
+					</div>
+				</div>
+				<div id="contact_section_form">
+					<form id="contact_form">
+						<div>
+							<div id="user_name_icon"></div>
+							<input id="user_name" placeholder="Name" type="text" name="name" required/>
+						</div>
+						<div>
+							<div id="user_email_icon"></div>
+							<input id="user_email" placeholder="Email" type="email" name="_replyto" required>
+						</div>
+						<div>
+							<div id="user_message_icon"></div>
+							<textarea id="user_message" placeholder="Message..." type="message" name="message" rows="5"></textarea>
+						</div>
+						<!-- Configureations -->
+						<!--<input type="hidden" name="_cc" value="">-->
+						<input type="hidden" name="_subject" value="Swerve Robotics Request">
+						<input type="text" name="_gotcha" style="display:none"> <!-- prevent spam -->
+						<!-- Submission -->
+						<input id="form_submit" class="button button_white" type="submit" value="Send">
+					</form>
+				</div>
+			</div>
+			<br/>
+			<div id="contact_fade"></div>
+		</section>
+		<section id="footer">
+			<div id="up_arrow">
+				<span class="icon-up-arrow icon"></span>
+			</div>
+		</section>
+
+		<div id="updated">Last updated: July 6th, 2018</div> 
+
+	</main>
+
+	<script type="text/javascript" src="src/animation.js"></script>
+	<script type="text/javascript" src="src/profiles.js"></script>
+	<script type="text/javascript" src="src/contact.js"></script>
+	<script type="text/javascript" src="src/common.js"></script>
+
+</body>
+
+

@@ -1,0 +1,98 @@
+/*
+Swerve senior design team member profiles style sheet
+Author: Frederick Wachter - wachterfreddy@gmail.com
+Created: 2016-07-01
+*/
+
+/* ----------------
+ *  Common Classes
+ * ----------------
+ */
+.icon:hover {
+	margin:50px 0px;
+	opacity:0.5;
+	cursor:pointer;
+}
+.gray_out {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: url(grayscale.svg); /* Firefox 4+ */
+	filter: gray; /* IE 6-9 */
+	transition:-webkit-filter 1s, -moz-filter 1s, -ms-filter 1s, -o-filter 1s, filter 1s;
+}
+
+/* ------------------
+ *  Profiles Section
+ * ------------------
+ */
+#profiles {
+	padding:20px 0px;
+	width:100%;
+	background-color:black;
+	text-align:center;
+}
+
+#profiles_title {
+	margin:0;
+	color:whitesmoke;
+}
+
+.profile {
+	margin:10px;
+	height:230px;
+	width:230px;
+	display:inline-block;
+	transition:-webkit-filter 1s, -moz-filter 1s, -ms-filter 1s, -o-filter 1s, filter 1s;
+}
+.profile_container_title {
+	height:190px;
+	width:100%;
+}
+.profile_container_link {
+	height:40px;
+	width:100%;
+}
+.profile_name {
+	padding-top:40%;
+	font-size:20px;
+}
+.profile_position {
+	font-size:12px;
+}
+
+.back {
+	background-color:white;
+}
+.front {
+	background-color:black;
+}
+
+#harrison .front {
+	background:url(img/members/Katz.jpg) no-repeat center center;
+}
+#alex .front {
+	background:url(img/members/Nhan.jpg) no-repeat center center;
+}
+#freddy .front {
+	background:url(img/members/Wachter.jpg) no-repeat center center;
+}
+#matt .front {
+	background:url(img/members/Wiese.jpg) no-repeat center center;
+}
+#yousuff .front {
+	background:url(img/members/Yousuff.jpg) no-repeat center center;
+}
+#tan .front {
+	background:url(img/members/Tan.jpg) no-repeat center center;
+}
+#josh .front {
+	background:url(img/members/Geating.jpg) no-repeat center center;
+}
+#harrison .front, #alex .front, #freddy .front, #matt .front, 
+#yousuff .front, #tan .front, #josh .front {
+	background-size:cover;
+}
+
+
